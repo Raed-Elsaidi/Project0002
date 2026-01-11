@@ -190,7 +190,7 @@
 
 .menu-cont{
     float: left;
-    width: 51%;
+    width: 52%;
     height:100%;
     text-align: center;
     position: relative;
@@ -271,7 +271,6 @@
     font-size: 26px;
     color: #eef2f5;
   line-height: 50px;
-    color: #4F200D;
     cursor: pointer;
 }
 
