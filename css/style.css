@@ -110,7 +110,7 @@
     width: 80%;
     margin: 50px;
     font-size: 22px;
-     color: #eff8f8;
+    color: #eff8f8;
 }
 
 .creative-btn {
@@ -143,7 +143,7 @@
 .creative-btn:hover {
     pointer-events: none;
     border: 2px solid #021d31;
-    background-color:  rgb(238, 242, 245,.5);
+    background-color: rgb(238, 238, 238,.4);    
     color: #222831;
     cursor: pointer;
 }
@@ -206,7 +206,7 @@
     top: 0px;
     list-style: none;
     display: flex;
-     gap: 30px;
+    gap: 20px;
      
     
 }
@@ -254,10 +254,10 @@
     margin-left: -5%;
 }
 .glass-cont .fa-magnifying-glass {
-   color: rgba(38, 40, 49);
+    color: rgba(38, 40, 49);
     position: absolute;
     font-size: 22px;
-   line-height: 50px;
+    line-height: 50px;
     
 }
 
@@ -270,7 +270,7 @@
 .home-cont .fa-house {
     font-size: 26px;
     color: #eef2f5;
-  line-height: 50px;
+    line-height: 50px;
     cursor: pointer;
 }
 
@@ -286,9 +286,9 @@
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     list-style: none;
-  padding: 0px 10px;
-  margin-left: -150%;
-   z-index: 20;
+    padding: 0px 10px;
+    margin-left: -150%;
+    z-index: 20;
 
 }
 
@@ -321,7 +321,7 @@
 
 
 
-/* إظهار القائمة عند تمرير الفأرة */
+/* display sub menu */
 .menu-li23:hover .sub-menu {
     display:block;
     text-align: left;
@@ -366,7 +366,7 @@
     border-radius: 10px;
     padding: 18px 14px;
     border: 2px solid #3c467b;
-    background-color: #D3DAD9;
+    background-color: #eeeeee;
     position: relative;
 }
 
@@ -553,7 +553,7 @@
     width: 100%;
     height: 100%;
     color: #060c2b;
-    background-color: rgb(154, 166, 178,.8);
+    background-color: rgb(154, 166, 178);
     opacity: .4;
     visibility: hidden;
 }
@@ -561,8 +561,8 @@
 .Feature-item:hover .Feature-overlay {
     width: 100%;
     height: 100%;
-    transition: 2s;
-    opacity: .9;
+    transition: 1.5s;
+    opacity: .8;
     visibility: visible;
 }
 
@@ -636,7 +636,7 @@
 .Feature-overlay a:hover{
     display: inline-block;
     background-color: #010414;
-    color: #eef2f5;
+    color:  #eeeeee;;
 }
 
 /*-----------(5)--------------*/
@@ -688,7 +688,7 @@
     height: 200px;
     border-radius: 10px;
     text-align: center;
-    background-color: #D3DAD9;
+    background-color: #eeeeee;
     position: relative;
 
 
@@ -828,7 +828,7 @@
     color: #011429;
     font-size: 18px;
     margin: 20px 20px 10px 100px;
-font-weight: bold;
+    font-weight: bold;
 }
 
 .choose-left-cont-list {
@@ -842,8 +842,7 @@ font-weight: bold;
 }
 .choose-left-cont-list i{
      color: #1c2631;
-
-    margin-right: 5px;
+     margin-right: 5px;
 }
 
 .choose-left-list-u {
@@ -906,8 +905,7 @@ font-weight: bold;
     display: inline-block;
     width: 20px;
     height: 20px;
-    border: 2px solid #D3DAD9;
-;
+    border: 2px solid #011429;
     background-color: #F9F8F6;
     border-radius: 50%;
     list-style: none;
@@ -955,7 +953,7 @@ font-weight: bold;
     position: absolute;
     width: 100%;
     height: 400px;
-        background-color: rgba(0, 7, 14, 0.3);
+    background-color: rgba(0, 7, 14, 0.3);
 
 }
 
@@ -1021,8 +1019,8 @@ font-weight: bold;
     width: 30%;
     height: auto;
     border-radius: 20px;
-      border: 2px solid #101424;
-    background-color: #D3DAD9;
+    border: 2px solid #3c467b;
+    background-color: #eeeeee;
     position: relative;
 }
 
@@ -1086,7 +1084,7 @@ font-weight: bold;
     background-color:  #222831;;
     color: #eef2f5;
     cursor: pointer;
-  z-index: 10;
+    z-index: 10;
 }
 
 /********hover********/
@@ -1127,7 +1125,7 @@ font-weight: bold;
     border: 2px solid #021d31;
     background-color:  #eef2f5;
     color: #222831;
- z-index: 10; 
+    z-index: 10; 
 }
 .price-btn:hover {
     transform:scale(.98);
@@ -1173,7 +1171,7 @@ font-weight: bold;
     float: left;
     width: 45%;
     height: 200px;
-margin-left: 50px;
+    margin-left: 50px;
 }
 
 .fix-img2-cont-right {
@@ -1261,7 +1259,7 @@ margin-left: 50px;
     height: 400px;
     border-radius: 10px;
     text-align: center;
-    background-color: #D3DAD9;
+    background-color: #eeeeee;
     position: relative;
     padding: 18px 14px;
 
@@ -1292,7 +1290,7 @@ margin-left: 50px;
     left: 0;
     width: 100%;
     height: 100%;
-   background-color: rgba(0, 7, 14, 0.4);
+    background-color: rgba(0, 7, 14, 0.4);
     visibility: hidden;
 }
 
@@ -1401,7 +1399,7 @@ margin-left: 50px;
     margin: auto;
     float: left;
     border: 2px solid #3c467b;
-    background-color: #D3DAD9;
+    background-color: #eeeeee;
     border-radius: 10px;
     position: sticky ;
 
@@ -1536,6 +1534,7 @@ margin-left: 50px;
 .footer {
     width: 100%;
     height: 300px;
+    background-color: #eeeeee;
 }
 
 .footer-contaner {
@@ -1543,8 +1542,6 @@ margin-left: 50px;
     text-align: center;
     margin: auto;
     justify-items: center;
-      border: 2px solid #3c467b;
-    background-color: #9aa6b2;
     text-align: center;
 
 }
@@ -1565,9 +1562,9 @@ margin-left: 50px;
 .footer-cont-icn {
     width: 100%;
     height: 60px;
-    background-color: #D3DAD9;
-   text-align: center;
-   padding-top: 10px;
+    background-color: #eeeeee;
+    text-align: center;
+    padding-top: 10px;
 }
 
 
@@ -1579,8 +1576,8 @@ margin-left: 50px;
     height: 40px;
     border-radius: 50%;
     color: #011429;
-    background-color:#F9F8F6;
- line-height: 40px;
+    border: 2px solid gray;
+    line-height: 40px;
 }
 
 .footer-cont-receved {
